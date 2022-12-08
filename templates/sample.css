@@ -1,0 +1,52 @@
+#para2{
+    text-align: match-parent;
+    font-size: 20px;
+    height: 300px;
+    width: 1500px;
+    broder: 2px solid red;
+    overflow: scroll;
+}
+
+div{
+    color: red;
+    background-color: lawngreen;
+}
+span{
+    color: black;font-size: 20px;
+}
+
+a:link{color: blue;}
+a:visited{color: #00363a;}
+a:hover{color: yellow;}
+a:active{color: red}
+
+body{
+    background: url("download.jpg") no-repeat center;
+    background-size: cover;
+
+}
+
+
+
+*{
+    text-align: center;
+    color: lawngreen;   (---universal-selector---)
+}
+
+.center{
+    text-align: center;
+    color: lawngreen;
+}
+#para1{
+    text-align: center;
+    color: blue;
+}
+p{
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+}
+body{
+    background: darkcyan;
+}
+
