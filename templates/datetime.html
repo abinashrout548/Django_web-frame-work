@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+{% extends "base.html" %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+{% block content %}
+<body style="background-color: darkcyan">
+
+<h1 style="color: #006b1b">Current system date and time is :{{ dt }}</h1>
+
+<h1>{{ dt|date:"DATE_FORMAT" }}</h1>
+
+<h1>{{ dt|date:"DateTime_format" }}</h1>
+
+<h1 style="color: #4ac1f7">{{ dt|date:"SHORT_DATE_FORMAT" }}</h1>
+
+<h1>{{ dt|date:"SHORT_DATETIME_FORMAT" }}</h1>
+
+<h1>{{ dt|date:"TIME_FORMAT" }}</h1>
+{% endblock %}
+</body>
+</html>
